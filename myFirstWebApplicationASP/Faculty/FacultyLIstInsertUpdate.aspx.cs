@@ -143,7 +143,7 @@ namespace myFirstWebApplicationASP
         }
         protected void ValidateFields()
         {
-            //Faculty Name
+            //Faculty Name details
             if (this.txtFacultyName.Text != null && this.txtFacultyName.Text != "")
             {
                 if (txtFacultyName.Text.Length > 50)
@@ -218,7 +218,7 @@ namespace myFirstWebApplicationASP
             }
             else
             {
-                MsgBox("SubjectName should not be Null or Blank");
+                MsgBox("SubjectName should not be Null or Blanks");
             }
 
 
